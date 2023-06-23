@@ -1,0 +1,17 @@
+{
+  "name": "QualcommTestProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write './**/*.ts'",
+    "test": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "prettier": "^2.8.8"
+  }
+}
